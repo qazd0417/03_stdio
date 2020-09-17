@@ -5,14 +5,17 @@
 
 int main(int argc, char *argv[]) 
 {
-	char s;
-	int j;
+	int a, b;
 	
-	printf("input a alphabet :");
-	scanf("%c",&s);
+	printf("input a number");
+	scanf("%d",&a);
 	
-	printf("input alphabet is %c (%d), and the next ane is %c (%d)\n",s,s,s+1,s+1);
+	printf("input a number");
+	scanf("%d",&b);
+	
 
+	printf("a / b =%f\n", (float)a/b);
+	
 	
 	return 0;
 }
